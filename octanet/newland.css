@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+
+nav{
+	background-color:blueviolet ;
+	display: grid;
+	place-items: center;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s ease-in;
+font-size: 18px;
+}
+nav ul a:hover{
+	background-color: green;
+	color: white;
+}
